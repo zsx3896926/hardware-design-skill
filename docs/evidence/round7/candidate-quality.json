@@ -1,0 +1,118 @@
+{
+  "status": "review_required",
+  "summary": {
+    "components": 26,
+    "modules": 6,
+    "wires": 116,
+    "wire_length": 1805.0,
+    "different_net_crossings": 5,
+    "empty_cell_ratio": 0.771,
+    "side_balance": {
+      "left": 14,
+      "right": 12,
+      "top": 13,
+      "bottom": 13,
+      "left_area_ratio": 0.749,
+      "top_area_ratio": 0.485,
+      "centroid": [
+        401.2,
+        493.0
+      ]
+    },
+    "content_bbox": [
+      112.5,
+      279.5,
+      890.5,
+      695.0
+    ],
+    "module_bboxes": {
+      "usb": [
+        112.5,
+        590.5,
+        285.5,
+        675.5
+      ],
+      "sensor": [
+        464.5,
+        641.5,
+        550.5,
+        683.0
+      ],
+      "vref": [
+        804.5,
+        590.5,
+        890.5,
+        659.5
+      ],
+      "comp": [
+        129.5,
+        364.5,
+        320.5,
+        429.5
+      ],
+      "driver": [
+        554.5,
+        279.5,
+        710.5,
+        345.5
+      ],
+      "indicator": [
+        784.5,
+        346.5,
+        875.5,
+        413.5
+      ]
+    },
+    "module_findings": []
+  },
+  "findings": [
+    {
+      "code": "wire_crossings",
+      "severity": "info",
+      "message": "different-net wire segments cross",
+      "count": 5
+    },
+    {
+      "code": "centroid_offset",
+      "severity": "warn",
+      "message": "area-weighted component centroid is far from the sheet centre",
+      "offset": [
+        -183.8,
+        80.5
+      ]
+    },
+    {
+      "code": "sparse_page",
+      "severity": "warn",
+      "message": "more than half of the coarse sheet cells are empty",
+      "empty_ratio": 0.771
+    },
+    {
+      "code": "repeated_power_markers",
+      "severity": "info",
+      "message": "a net uses more than two same-name power markers",
+      "nets": [
+        "+5V",
+        "GND"
+      ]
+    }
+  ],
+  "counts": {
+    "error": 0,
+    "warn": 2,
+    "info": 2
+  },
+  "coverage": {
+    "text_bboxes": true,
+    "wire_geometry": true,
+    "modules": true,
+    "page_and_title_block": true
+  },
+  "not_checked": [
+    "electrical connectivity and pin-net equivalence",
+    "symbol outline accuracy beyond the measured bbox",
+    "fonts and text width beyond the measured designator bbox",
+    "parameters/values text (not measured by designator-geometry)",
+    "PCB placement, routing and manufacturing rules"
+  ]
+}

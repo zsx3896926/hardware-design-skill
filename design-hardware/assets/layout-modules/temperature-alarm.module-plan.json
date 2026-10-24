@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "name": "temperature-alarm",
+  "description": "USB-C powered NTC alarm: power ingress -> NTC divider -> adjustable threshold -> comparator -> buzzer/LED driver, plus a power indicator. Member lists are by designator; there are no absolute coordinates.",
+  "defaultNetPolicies": {
+    "+5V": "local_power",
+    "GND": "local_ground"
+  },
+  "readingOrder": ["usb", "sensor", "vref", "comp", "driver", "indicator"],
+  "zones": [
+    {
+      "id": "usb",
+      "title": "USB-C 5V input & protection",
+      "core": "J1",
+      "members": ["J1", "D1", "D3", "R1", "R2"]
+    },
+    {
+      "id": "sensor",
+      "title": "NTC divider & filter",
+      "core": "RT1",
+      "members": ["RT1", "R10", "C1"],
+      "netPolicies": {
+        "NODE": "module_port"
+      }
+    },
+    {
+      "id": "vref",
+      "title": "Adjustable threshold",
+      "core": "RV1",
+      "members": ["R11", "RV1", "R12", "C2"],
+      "netPolicies": {
+        "REF_TOP": "direct",
+        "VREF": "module_port",
+        "REF_BOT": "direct"
+      }
+    },
+    {
+      "id": "comp",
+      "title": "Comparator & hysteresis",
+      "core": "U1",
+      "members": ["U1", "R13", "R14", "R15", "C3"],
+      "netPolicies": {
+        "OUT": "direct",
+        "GATE": "module_port",
+        "NODE": "module_port",
+        "VREF": "module_port"
+      }
+    },
+    {
+      "id": "driver",
+      "title": "Buzzer / LED driver",
+      "core": "Q1",
+      "members": ["Q1", "BZ1", "D6", "D4", "R16"],
+      "netPolicies": {
+        "BUZ_D": "direct",
+        "LED_A": "direct",
+        "GATE": "module_port"
+      }
+    },
+    {
+      "id": "indicator",
+      "title": "Power LED & bulk decoupling",
+      "core": "R17",
+      "members": ["R17", "D5", "C4", "C5"],
+      "netPolicies": {
+        "PWR_LED_A": "direct"
+      }
+    }
+  ]
+}

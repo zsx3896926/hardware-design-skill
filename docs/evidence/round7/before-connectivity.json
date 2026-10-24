@@ -1,0 +1,1645 @@
+{
+  "schemaVersion": "1.4",
+  "projectId": "234724cc1b864c3da8bab18cbfbf4fc1",
+  "documentId": "6a8364999a809cb4",
+  "components": [
+    {
+      "id": "cmp-BZ1",
+      "uniqueId": "gge21",
+      "ref": "BZ1",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "8cbc9b9818054f56a892bcf64fab1542",
+        "name": "={Value}"
+      },
+      "footprint": "0f0ff797486996fd",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "BUZ-TH_BD9.5-P5.00-D0.6-L_GMD9505RB-5V2700",
+        "uuid": "0f0ff797486996fd"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "+",
+          "x": 1020,
+          "y": 300
+        },
+        {
+          "number": "2",
+          "name": "-",
+          "x": 1020,
+          "y": 310
+        }
+      ],
+      "placement": {
+        "x": 1000,
+        "y": 300,
+        "bbox": {
+          "minX": 969.5,
+          "minY": 279.5,
+          "maxX": 1000.5,
+          "maxY": 330.5
+        }
+      }
+    },
+    {
+      "id": "cmp-C1",
+      "uniqueId": "gge10",
+      "ref": "C1",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "96b39256cc3f4d80bd3b503deb4f3328",
+        "name": "={Value}"
+      },
+      "footprint": "2750a2ef99bcd0f1",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603",
+        "uuid": "2750a2ef99bcd0f1"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "x": 740,
+          "y": 650
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "x": 780,
+          "y": 650
+        }
+      ],
+      "placement": {
+        "x": 760,
+        "y": 650,
+        "bbox": {
+          "minX": 749.5,
+          "minY": 641.5,
+          "maxX": 770.5,
+          "maxY": 658.5
+        }
+      }
+    },
+    {
+      "id": "cmp-C2",
+      "uniqueId": "gge14",
+      "ref": "C2",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "96b39256cc3f4d80bd3b503deb4f3328",
+        "name": "={Value}"
+      },
+      "footprint": "2750a2ef99bcd0f1",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603",
+        "uuid": "2750a2ef99bcd0f1"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "x": 920,
+          "y": 520
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "x": 960,
+          "y": 520
+        }
+      ],
+      "placement": {
+        "x": 940,
+        "y": 520,
+        "bbox": {
+          "minX": 929.5,
+          "minY": 511.5,
+          "maxX": 950.5,
+          "maxY": 528.5
+        }
+      }
+    },
+    {
+      "id": "cmp-C3",
+      "uniqueId": "gge17",
+      "ref": "C3",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "96b39256cc3f4d80bd3b503deb4f3328",
+        "name": "={Value}"
+      },
+      "footprint": "2750a2ef99bcd0f1",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603",
+        "uuid": "2750a2ef99bcd0f1"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "x": 980,
+          "y": 360
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "x": 1020,
+          "y": 360
+        }
+      ],
+      "placement": {
+        "x": 1000,
+        "y": 360,
+        "bbox": {
+          "minX": 989.5,
+          "minY": 351.5,
+          "maxX": 1010.5,
+          "maxY": 368.5
+        }
+      }
+    },
+    {
+      "id": "cmp-C4",
+      "uniqueId": "gge27",
+      "ref": "C4",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "6e5726223dd84f70bc3b626fc7d1f72c",
+        "name": "={Value}"
+      },
+      "footprint": "44ea4b09a01493a3",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0805",
+        "uuid": "44ea4b09a01493a3"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "x": 660,
+          "y": 340
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "x": 700,
+          "y": 340
+        }
+      ],
+      "placement": {
+        "x": 680,
+        "y": 340,
+        "bbox": {
+          "minX": 669.5,
+          "minY": 331.5,
+          "maxX": 690.5,
+          "maxY": 348.5
+        }
+      }
+    },
+    {
+      "id": "cmp-C5",
+      "uniqueId": "gge28",
+      "ref": "C5",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "96b39256cc3f4d80bd3b503deb4f3328",
+        "name": "={Value}"
+      },
+      "footprint": "2750a2ef99bcd0f1",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603",
+        "uuid": "2750a2ef99bcd0f1"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "x": 700,
+          "y": 420
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "x": 740,
+          "y": 420
+        }
+      ],
+      "placement": {
+        "x": 720,
+        "y": 420,
+        "bbox": {
+          "minX": 709.5,
+          "minY": 411.5,
+          "maxX": 730.5,
+          "maxY": 428.5
+        }
+      }
+    },
+    {
+      "id": "cmp-D1",
+      "uniqueId": "gge1",
+      "ref": "D1",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "009407eaaa604eb9b6f73cc3868f316d",
+        "name": "={Manufacturer Part}"
+      },
+      "footprint": "34ca7a6cd9f19eed",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SMA_L4.3-W2.6-LS5.2-RD",
+        "uuid": "34ca7a6cd9f19eed"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "K",
+          "x": 80,
+          "y": 500
+        },
+        {
+          "number": "2",
+          "name": "A",
+          "x": 120,
+          "y": 500
+        }
+      ],
+      "placement": {
+        "x": 100,
+        "y": 500,
+        "bbox": {
+          "minX": 92.5,
+          "minY": 491.5,
+          "maxX": 105.5,
+          "maxY": 508.5
+        }
+      }
+    },
+    {
+      "id": "cmp-D3",
+      "uniqueId": "gge6",
+      "ref": "D3",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "fbafe715cf2a4ad58ba384c7d477da09",
+        "name": "={Manufacturer Part}"
+      },
+      "footprint": "cc000f58a4b58f2c",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SMA_L4.4-W2.6-LS5.0-RD",
+        "uuid": "cc000f58a4b58f2c"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "K",
+          "x": 200,
+          "y": 670
+        },
+        {
+          "number": "2",
+          "name": "A",
+          "x": 240,
+          "y": 670
+        }
+      ],
+      "placement": {
+        "x": 220,
+        "y": 670,
+        "bbox": {
+          "minX": 211.5,
+          "minY": 661.5,
+          "maxX": 225.5,
+          "maxY": 677.5
+        }
+      }
+    },
+    {
+      "id": "cmp-D4",
+      "uniqueId": "gge23",
+      "ref": "D4",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "1d7a0591eee2425b90fe439ede815318",
+        "name": "={Manufacturer Part}"
+      },
+      "footprint": "c76a6abbc5a1f248",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "LED0805-R-RD",
+        "uuid": "c76a6abbc5a1f248"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "A",
+          "x": 920,
+          "y": 210
+        },
+        {
+          "number": "2",
+          "name": "K",
+          "x": 880,
+          "y": 210
+        }
+      ],
+      "placement": {
+        "x": 900,
+        "y": 224,
+        "bbox": {
+          "minX": 884.5,
+          "minY": 201.5,
+          "maxX": 905.5,
+          "maxY": 227.5
+        }
+      }
+    },
+    {
+      "id": "cmp-D5",
+      "uniqueId": "gge25",
+      "ref": "D5",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "9934e6f2be03427c81d2f7ee362750fc",
+        "name": "={Manufacturer Part}"
+      },
+      "footprint": "c76a6abbc5a1f248",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "LED0805-R-RD",
+        "uuid": "c76a6abbc5a1f248"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "A",
+          "x": 980,
+          "y": 250
+        },
+        {
+          "number": "2",
+          "name": "K",
+          "x": 940,
+          "y": 250
+        }
+      ],
+      "placement": {
+        "x": 960,
+        "y": 250,
+        "bbox": {
+          "minX": 943.5,
+          "minY": 241.5,
+          "maxX": 965.5,
+          "maxY": 267.5
+        }
+      }
+    },
+    {
+      "id": "cmp-D6",
+      "uniqueId": "gge22",
+      "ref": "D6",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "76d24ed7c48e4683a577694c4d221e92",
+        "name": "={Manufacturer Part}"
+      },
+      "footprint": "8f86f1f460018bb4",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOD-123_L2.7-W1.6-LS3.7-RD-1",
+        "uuid": "8f86f1f460018bb4"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "K",
+          "x": 980,
+          "y": 240
+        },
+        {
+          "number": "2",
+          "name": "A",
+          "x": 1020,
+          "y": 240
+        }
+      ],
+      "placement": {
+        "x": 1000,
+        "y": 240,
+        "bbox": {
+          "minX": 989.5,
+          "minY": 232.5,
+          "maxX": 1010.5,
+          "maxY": 247.5
+        }
+      }
+    },
+    {
+      "id": "cmp-J1",
+      "uniqueId": "gge3",
+      "ref": "J1",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "fafc5d2de09d4595b0cc7abedc0530e6",
+        "name": "={Manufacturer Part}"
+      },
+      "footprint": "ca415c86d4030117",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "USB-C-SMD_TYPE-C-16PIN",
+        "uuid": "ca415c86d4030117"
+      },
+      "pins": [
+        {
+          "number": "10",
+          "name": "EP",
+          "x": 475,
+          "y": 450
+        },
+        {
+          "number": "11",
+          "name": "EP",
+          "x": 495,
+          "y": 450
+        },
+        {
+          "number": "8",
+          "name": "EP",
+          "x": 475,
+          "y": 540
+        },
+        {
+          "number": "9",
+          "name": "EP",
+          "x": 495,
+          "y": 540
+        },
+        {
+          "number": "A1B12",
+          "name": "GND",
+          "x": 530,
+          "y": 480
+        },
+        {
+          "number": "A4B9",
+          "name": "VBUS",
+          "x": 530,
+          "y": 470
+        },
+        {
+          "number": "A5",
+          "name": "CC1",
+          "x": 440,
+          "y": 470
+        },
+        {
+          "number": "A6",
+          "name": "DP1",
+          "noConnected": true,
+          "x": 440,
+          "y": 480
+        },
+        {
+          "number": "A7",
+          "name": "DN1",
+          "noConnected": true,
+          "x": 440,
+          "y": 490
+        },
+        {
+          "number": "A8",
+          "name": "SBU1",
+          "noConnected": true,
+          "x": 440,
+          "y": 500
+        },
+        {
+          "number": "B1A12",
+          "name": "GND",
+          "x": 440,
+          "y": 520
+        },
+        {
+          "number": "B4A9",
+          "name": "VBUS",
+          "x": 440,
+          "y": 510
+        },
+        {
+          "number": "B5",
+          "name": "CC2",
+          "x": 530,
+          "y": 520
+        },
+        {
+          "number": "B6",
+          "name": "DP2",
+          "noConnected": true,
+          "x": 530,
+          "y": 510
+        },
+        {
+          "number": "B7",
+          "name": "DN2",
+          "noConnected": true,
+          "x": 530,
+          "y": 500
+        },
+        {
+          "number": "B8",
+          "name": "SBU2",
+          "noConnected": true,
+          "x": 530,
+          "y": 490
+        }
+      ],
+      "placement": {
+        "x": 480,
+        "y": 500,
+        "bbox": {
+          "minX": 449.5,
+          "minY": 459.5,
+          "maxX": 520.5,
+          "maxY": 530.5
+        }
+      }
+    },
+    {
+      "id": "cmp-Q1",
+      "uniqueId": "gge20",
+      "ref": "Q1",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "f8007837564a4f1fa0e6b57b81dccb0d",
+        "name": "={Manufacturer Part}"
+      },
+      "footprint": "afeb9e892909f40d",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+        "uuid": "afeb9e892909f40d"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "G",
+          "x": 880,
+          "y": 300
+        },
+        {
+          "number": "2",
+          "name": "S",
+          "x": 910,
+          "y": 280
+        },
+        {
+          "number": "3",
+          "name": "D",
+          "x": 910,
+          "y": 320
+        }
+      ],
+      "placement": {
+        "x": 900,
+        "y": 300,
+        "bbox": {
+          "minX": 889.5,
+          "minY": 289.5,
+          "maxX": 924.5,
+          "maxY": 310.5
+        }
+      }
+    },
+    {
+      "id": "cmp-R1",
+      "uniqueId": "gge7",
+      "ref": "R1",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "ef1f93374e0c4079b48a2d1a3cec8f6b",
+        "name": "={Value}"
+      },
+      "footprint": "b707a29f63bdedfd",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0402",
+        "uuid": "b707a29f63bdedfd"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "x": 620,
+          "y": 400
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "x": 660,
+          "y": 400
+        }
+      ],
+      "placement": {
+        "x": 640,
+        "y": 400,
+        "bbox": {
+          "minX": 629.5,
+          "minY": 395.5,
+          "maxX": 650.5,
+          "maxY": 404.5
+        }
+      }
+    },
+    {
+      "id": "cmp-R10",
+      "uniqueId": "gge9",
+      "ref": "R10",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "58496dac16a440139f5cb6c5e234f264",
+        "name": "={Value}"
+      },
+      "footprint": "7750d6da360e1e9b",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603",
+        "uuid": "7750d6da360e1e9b"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "x": 840,
+          "y": 680
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "x": 880,
+          "y": 680
+        }
+      ],
+      "placement": {
+        "x": 860,
+        "y": 680,
+        "bbox": {
+          "minX": 849.5,
+          "minY": 675.5,
+          "maxX": 870.5,
+          "maxY": 684.5
+        }
+      }
+    },
+    {
+      "id": "cmp-R11",
+      "uniqueId": "gge11",
+      "ref": "R11",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "c6ada74ee02c4580a31b05065d6aceb8",
+        "name": "={Value}"
+      },
+      "footprint": "b707a29f63bdedfd",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0402",
+        "uuid": "b707a29f63bdedfd"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "x": 700,
+          "y": 560
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "x": 740,
+          "y": 560
+        }
+      ],
+      "placement": {
+        "x": 720,
+        "y": 560,
+        "bbox": {
+          "minX": 709.5,
+          "minY": 555.5,
+          "maxX": 730.5,
+          "maxY": 564.5
+        }
+      }
+    },
+    {
+      "id": "cmp-R12",
+      "uniqueId": "gge13",
+      "ref": "R12",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "c3b9baa5ef2e4070a4c0f9e9cd04fe6e",
+        "name": "={Value}"
+      },
+      "footprint": "b707a29f63bdedfd",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0402",
+        "uuid": "b707a29f63bdedfd"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "x": 700,
+          "y": 480
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "x": 740,
+          "y": 480
+        }
+      ],
+      "placement": {
+        "x": 720,
+        "y": 480,
+        "bbox": {
+          "minX": 709.5,
+          "minY": 475.5,
+          "maxX": 730.5,
+          "maxY": 484.5
+        }
+      }
+    },
+    {
+      "id": "cmp-R13",
+      "uniqueId": "gge16",
+      "ref": "R13",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "9ae95bd1c95d4a2e9d26948bbc31587f",
+        "name": "={Value}"
+      },
+      "footprint": "7750d6da360e1e9b",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603",
+        "uuid": "7750d6da360e1e9b"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "x": 880,
+          "y": 720
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "x": 920,
+          "y": 720
+        }
+      ],
+      "placement": {
+        "x": 900,
+        "y": 720,
+        "bbox": {
+          "minX": 889.5,
+          "minY": 715.5,
+          "maxX": 910.5,
+          "maxY": 724.5
+        }
+      }
+    },
+    {
+      "id": "cmp-R14",
+      "uniqueId": "gge18",
+      "ref": "R14",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "65abbad5fa864933b552e0f016ece0db",
+        "name": "={Value}"
+      },
+      "footprint": "b707a29f63bdedfd",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0402",
+        "uuid": "b707a29f63bdedfd"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "x": 820,
+          "y": 360
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "x": 860,
+          "y": 360
+        }
+      ],
+      "placement": {
+        "x": 840,
+        "y": 360,
+        "bbox": {
+          "minX": 829.5,
+          "minY": 355.5,
+          "maxX": 850.5,
+          "maxY": 364.5
+        }
+      }
+    },
+    {
+      "id": "cmp-R15",
+      "uniqueId": "gge19",
+      "ref": "R15",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "acc294b6661948399f609b41c77ed19f",
+        "name": "={Value}"
+      },
+      "footprint": "b707a29f63bdedfd",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0402",
+        "uuid": "b707a29f63bdedfd"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "x": 780,
+          "y": 340
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "x": 820,
+          "y": 340
+        }
+      ],
+      "placement": {
+        "x": 800,
+        "y": 340,
+        "bbox": {
+          "minX": 789.5,
+          "minY": 335.5,
+          "maxX": 810.5,
+          "maxY": 344.5
+        }
+      }
+    },
+    {
+      "id": "cmp-R16",
+      "uniqueId": "gge24",
+      "ref": "R16",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "e8fce500bca64e1c8d4608bbe4b71cce",
+        "name": "={Value}"
+      },
+      "footprint": "f2fd1e2f37bfa354",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0805",
+        "uuid": "f2fd1e2f37bfa354"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "x": 780,
+          "y": 400
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "x": 820,
+          "y": 400
+        }
+      ],
+      "placement": {
+        "x": 800,
+        "y": 400,
+        "bbox": {
+          "minX": 789.5,
+          "minY": 395.5,
+          "maxX": 810.5,
+          "maxY": 404.5
+        }
+      }
+    },
+    {
+      "id": "cmp-R17",
+      "uniqueId": "gge26",
+      "ref": "R17",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "65abbad5fa864933b552e0f016ece0db",
+        "name": "={Value}"
+      },
+      "footprint": "b707a29f63bdedfd",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0402",
+        "uuid": "b707a29f63bdedfd"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "x": 720,
+          "y": 260
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "x": 760,
+          "y": 260
+        }
+      ],
+      "placement": {
+        "x": 740,
+        "y": 260,
+        "bbox": {
+          "minX": 729.5,
+          "minY": 255.5,
+          "maxX": 750.5,
+          "maxY": 264.5
+        }
+      }
+    },
+    {
+      "id": "cmp-R2",
+      "uniqueId": "gge5",
+      "ref": "R2",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "ef1f93374e0c4079b48a2d1a3cec8f6b",
+        "name": "={Value}"
+      },
+      "footprint": "b707a29f63bdedfd",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0402",
+        "uuid": "b707a29f63bdedfd"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "x": 80,
+          "y": 670
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "x": 120,
+          "y": 670
+        }
+      ],
+      "placement": {
+        "x": 100,
+        "y": 670,
+        "bbox": {
+          "minX": 89.5,
+          "minY": 665.5,
+          "maxX": 110.5,
+          "maxY": 674.5
+        }
+      }
+    },
+    {
+      "id": "cmp-RT1",
+      "uniqueId": "gge8",
+      "ref": "RT1",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "dce47d3b1e0645328b8039e44399ff16",
+        "name": "={Manufacturer Part}"
+      },
+      "footprint": "7750d6da360e1e9b",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603",
+        "uuid": "7750d6da360e1e9b"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "x": 730,
+          "y": 720
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "x": 790,
+          "y": 720
+        }
+      ],
+      "placement": {
+        "x": 760,
+        "y": 720,
+        "bbox": {
+          "minX": 744.5,
+          "minY": 710,
+          "maxX": 775.5,
+          "maxY": 733
+        }
+      }
+    },
+    {
+      "id": "cmp-RV1",
+      "uniqueId": "gge12",
+      "ref": "RV1",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "83ff663f2be74b8e88e7b301d51414b8",
+        "name": "={Value}"
+      },
+      "footprint": "7e6f1f5f23cb8f31",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "RES-ADJ-TH_3P-L10.0-W10.0-P2.50-L",
+        "uuid": "7e6f1f5f23cb8f31"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "x": 880,
+          "y": 560
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "x": 860,
+          "y": 575
+        },
+        {
+          "number": "3",
+          "name": "3",
+          "x": 840,
+          "y": 560
+        }
+      ],
+      "placement": {
+        "x": 860,
+        "y": 560,
+        "bbox": {
+          "minX": 849.5,
+          "minY": 555.5,
+          "maxX": 872.5,
+          "maxY": 570.5
+        }
+      }
+    },
+    {
+      "id": "cmp-U1",
+      "uniqueId": "gge15",
+      "ref": "U1",
+      "device": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "deviceUuid": "f2d26474c00f4a5fb1f51e25da3b7b79",
+        "name": "={Manufacturer Part}"
+      },
+      "footprint": "07160bc636b6de88",
+      "footprintRef": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+        "uuid": "07160bc636b6de88"
+      },
+      "pins": [
+        {
+          "number": "1",
+          "name": "OUT",
+          "x": 930,
+          "y": 630
+        },
+        {
+          "number": "2",
+          "name": "VSS",
+          "x": 930,
+          "y": 620
+        },
+        {
+          "number": "3",
+          "name": "VIN+",
+          "x": 930,
+          "y": 610
+        },
+        {
+          "number": "4",
+          "name": "VIN-",
+          "x": 1030,
+          "y": 610
+        },
+        {
+          "number": "5",
+          "name": "VDD",
+          "x": 1030,
+          "y": 630
+        }
+      ],
+      "placement": {
+        "x": 980,
+        "y": 620,
+        "bbox": {
+          "minX": 939.5,
+          "minY": 599.5,
+          "maxX": 1020.5,
+          "maxY": 640.5
+        }
+      }
+    }
+  ],
+  "nets": [
+    {
+      "id": "net-1af8af676d9574b64c2ba3164b854a02988e8ec784e08d5168abd9e99e57b03e",
+      "name": "PWR_LED_A",
+      "scope": "local",
+      "role": "signal"
+    },
+    {
+      "id": "net-436512e5babfbe83cb49b2bec450620750c3f161cceb6d26d9b9cc806a4f19c1",
+      "name": "+5V",
+      "scope": "global",
+      "role": "power"
+    },
+    {
+      "id": "net-53becbde62843a17be10c45d9c0b47aa701c0e2f88604dfab8544423dbf12fc5",
+      "name": "D1_N3",
+      "scope": "local",
+      "role": "signal"
+    },
+    {
+      "id": "net-5451b049e0c0ea32e4dd616cac601080e114e41905a18259c3cafb719d1f3d89",
+      "name": "REF_BOT",
+      "scope": "local",
+      "role": "signal"
+    },
+    {
+      "id": "net-6da7e3c3919eaa79775339236f12f1d2fe722a1ce55330e8a6f504b1d87e7e7f",
+      "name": "REF_TOP",
+      "scope": "local",
+      "role": "signal"
+    },
+    {
+      "id": "net-a0c9e1ae03ed3227e1a028a18503dc565371dfccda6de8582a98a2a4a1338b1f",
+      "name": "VREF",
+      "scope": "local",
+      "role": "signal"
+    },
+    {
+      "id": "net-a9e96b703101894a9d9f62a122defc577df7d2a34c6f86c135df68fab4eea7a7",
+      "name": "D1_N4",
+      "scope": "local",
+      "role": "signal"
+    },
+    {
+      "id": "net-c57929ed14088114883b23815775f37cb9f7d10c96f23b3cb2c1a3e375a6bbcc",
+      "name": "OUT",
+      "scope": "local",
+      "role": "signal"
+    },
+    {
+      "id": "net-cbfa2803caa8a62ac62346582108e11f4202a36bc156371e0989aa92870be1e1",
+      "name": "D1_N1",
+      "scope": "local",
+      "role": "signal"
+    },
+    {
+      "id": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "name": "GND",
+      "scope": "global",
+      "role": "ground"
+    },
+    {
+      "id": "net-d92c48f8c362e78bc2d1d1c3487f09b8b0b12cbe96acf3e57e7facc487bad88b",
+      "name": "LED_A",
+      "scope": "local",
+      "role": "signal"
+    },
+    {
+      "id": "net-dd3bfe5f7da1dd252da75ad13a4ec8c5ff78a68aa1677a1adae1e934f1a76057",
+      "name": "GATE",
+      "scope": "local",
+      "role": "signal"
+    },
+    {
+      "id": "net-eccbecb9820294ebc9c25f3b203db563b0d803998a5e510750eb02bf9f5635e9",
+      "name": "BUZ_D",
+      "scope": "local",
+      "role": "signal"
+    },
+    {
+      "id": "net-fef2ec95d68cff5c7384857cd7dd003d87b044f76da5754f73219dab4e3fd194",
+      "name": "NODE",
+      "scope": "local",
+      "role": "signal"
+    }
+  ],
+  "connections": [
+    {
+      "componentId": "cmp-BZ1",
+      "pinNumber": "1",
+      "netId": "net-436512e5babfbe83cb49b2bec450620750c3f161cceb6d26d9b9cc806a4f19c1",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-BZ1",
+      "pinNumber": "2",
+      "netId": "net-eccbecb9820294ebc9c25f3b203db563b0d803998a5e510750eb02bf9f5635e9",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-C1",
+      "pinNumber": "1",
+      "netId": "net-fef2ec95d68cff5c7384857cd7dd003d87b044f76da5754f73219dab4e3fd194",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-C1",
+      "pinNumber": "2",
+      "netId": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-C2",
+      "pinNumber": "1",
+      "netId": "net-a0c9e1ae03ed3227e1a028a18503dc565371dfccda6de8582a98a2a4a1338b1f",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-C2",
+      "pinNumber": "2",
+      "netId": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-C3",
+      "pinNumber": "1",
+      "netId": "net-436512e5babfbe83cb49b2bec450620750c3f161cceb6d26d9b9cc806a4f19c1",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-C3",
+      "pinNumber": "2",
+      "netId": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-C4",
+      "pinNumber": "1",
+      "netId": "net-436512e5babfbe83cb49b2bec450620750c3f161cceb6d26d9b9cc806a4f19c1",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-C4",
+      "pinNumber": "2",
+      "netId": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-C5",
+      "pinNumber": "1",
+      "netId": "net-436512e5babfbe83cb49b2bec450620750c3f161cceb6d26d9b9cc806a4f19c1",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-C5",
+      "pinNumber": "2",
+      "netId": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-D1",
+      "pinNumber": "1",
+      "netId": "net-436512e5babfbe83cb49b2bec450620750c3f161cceb6d26d9b9cc806a4f19c1",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-D1",
+      "pinNumber": "2",
+      "netId": "net-cbfa2803caa8a62ac62346582108e11f4202a36bc156371e0989aa92870be1e1",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-D3",
+      "pinNumber": "1",
+      "netId": "net-cbfa2803caa8a62ac62346582108e11f4202a36bc156371e0989aa92870be1e1",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-D3",
+      "pinNumber": "2",
+      "netId": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-D4",
+      "pinNumber": "1",
+      "netId": "net-d92c48f8c362e78bc2d1d1c3487f09b8b0b12cbe96acf3e57e7facc487bad88b",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-D4",
+      "pinNumber": "2",
+      "netId": "net-eccbecb9820294ebc9c25f3b203db563b0d803998a5e510750eb02bf9f5635e9",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-D5",
+      "pinNumber": "1",
+      "netId": "net-1af8af676d9574b64c2ba3164b854a02988e8ec784e08d5168abd9e99e57b03e",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-D5",
+      "pinNumber": "2",
+      "netId": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-D6",
+      "pinNumber": "1",
+      "netId": "net-436512e5babfbe83cb49b2bec450620750c3f161cceb6d26d9b9cc806a4f19c1",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-D6",
+      "pinNumber": "2",
+      "netId": "net-eccbecb9820294ebc9c25f3b203db563b0d803998a5e510750eb02bf9f5635e9",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-J1",
+      "pinNumber": "10",
+      "netId": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-J1",
+      "pinNumber": "11",
+      "netId": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-J1",
+      "pinNumber": "8",
+      "netId": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-J1",
+      "pinNumber": "9",
+      "netId": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-J1",
+      "pinNumber": "A1B12",
+      "netId": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-J1",
+      "pinNumber": "A4B9",
+      "netId": "net-cbfa2803caa8a62ac62346582108e11f4202a36bc156371e0989aa92870be1e1",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-J1",
+      "pinNumber": "A5",
+      "netId": "net-53becbde62843a17be10c45d9c0b47aa701c0e2f88604dfab8544423dbf12fc5",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-J1",
+      "pinNumber": "B1A12",
+      "netId": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-J1",
+      "pinNumber": "B4A9",
+      "netId": "net-cbfa2803caa8a62ac62346582108e11f4202a36bc156371e0989aa92870be1e1",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-J1",
+      "pinNumber": "B5",
+      "netId": "net-a9e96b703101894a9d9f62a122defc577df7d2a34c6f86c135df68fab4eea7a7",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-Q1",
+      "pinNumber": "1",
+      "netId": "net-dd3bfe5f7da1dd252da75ad13a4ec8c5ff78a68aa1677a1adae1e934f1a76057",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-Q1",
+      "pinNumber": "2",
+      "netId": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-Q1",
+      "pinNumber": "3",
+      "netId": "net-eccbecb9820294ebc9c25f3b203db563b0d803998a5e510750eb02bf9f5635e9",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-R1",
+      "pinNumber": "1",
+      "netId": "net-53becbde62843a17be10c45d9c0b47aa701c0e2f88604dfab8544423dbf12fc5",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-R1",
+      "pinNumber": "2",
+      "netId": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-R10",
+      "pinNumber": "1",
+      "netId": "net-fef2ec95d68cff5c7384857cd7dd003d87b044f76da5754f73219dab4e3fd194",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-R10",
+      "pinNumber": "2",
+      "netId": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-R11",
+      "pinNumber": "1",
+      "netId": "net-436512e5babfbe83cb49b2bec450620750c3f161cceb6d26d9b9cc806a4f19c1",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-R11",
+      "pinNumber": "2",
+      "netId": "net-6da7e3c3919eaa79775339236f12f1d2fe722a1ce55330e8a6f504b1d87e7e7f",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-R12",
+      "pinNumber": "1",
+      "netId": "net-5451b049e0c0ea32e4dd616cac601080e114e41905a18259c3cafb719d1f3d89",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-R12",
+      "pinNumber": "2",
+      "netId": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-R13",
+      "pinNumber": "1",
+      "netId": "net-c57929ed14088114883b23815775f37cb9f7d10c96f23b3cb2c1a3e375a6bbcc",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-R13",
+      "pinNumber": "2",
+      "netId": "net-fef2ec95d68cff5c7384857cd7dd003d87b044f76da5754f73219dab4e3fd194",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-R14",
+      "pinNumber": "1",
+      "netId": "net-c57929ed14088114883b23815775f37cb9f7d10c96f23b3cb2c1a3e375a6bbcc",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-R14",
+      "pinNumber": "2",
+      "netId": "net-dd3bfe5f7da1dd252da75ad13a4ec8c5ff78a68aa1677a1adae1e934f1a76057",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-R15",
+      "pinNumber": "1",
+      "netId": "net-dd3bfe5f7da1dd252da75ad13a4ec8c5ff78a68aa1677a1adae1e934f1a76057",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-R15",
+      "pinNumber": "2",
+      "netId": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-R16",
+      "pinNumber": "1",
+      "netId": "net-436512e5babfbe83cb49b2bec450620750c3f161cceb6d26d9b9cc806a4f19c1",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-R16",
+      "pinNumber": "2",
+      "netId": "net-d92c48f8c362e78bc2d1d1c3487f09b8b0b12cbe96acf3e57e7facc487bad88b",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-R17",
+      "pinNumber": "1",
+      "netId": "net-436512e5babfbe83cb49b2bec450620750c3f161cceb6d26d9b9cc806a4f19c1",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-R17",
+      "pinNumber": "2",
+      "netId": "net-1af8af676d9574b64c2ba3164b854a02988e8ec784e08d5168abd9e99e57b03e",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-R2",
+      "pinNumber": "1",
+      "netId": "net-a9e96b703101894a9d9f62a122defc577df7d2a34c6f86c135df68fab4eea7a7",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-R2",
+      "pinNumber": "2",
+      "netId": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-RT1",
+      "pinNumber": "1",
+      "netId": "net-436512e5babfbe83cb49b2bec450620750c3f161cceb6d26d9b9cc806a4f19c1",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-RT1",
+      "pinNumber": "2",
+      "netId": "net-fef2ec95d68cff5c7384857cd7dd003d87b044f76da5754f73219dab4e3fd194",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-RV1",
+      "pinNumber": "1",
+      "netId": "net-6da7e3c3919eaa79775339236f12f1d2fe722a1ce55330e8a6f504b1d87e7e7f",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-RV1",
+      "pinNumber": "2",
+      "netId": "net-a0c9e1ae03ed3227e1a028a18503dc565371dfccda6de8582a98a2a4a1338b1f",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-RV1",
+      "pinNumber": "3",
+      "netId": "net-5451b049e0c0ea32e4dd616cac601080e114e41905a18259c3cafb719d1f3d89",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-U1",
+      "pinNumber": "1",
+      "netId": "net-c57929ed14088114883b23815775f37cb9f7d10c96f23b3cb2c1a3e375a6bbcc",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-U1",
+      "pinNumber": "2",
+      "netId": "net-ccdd8d41edbac58e6d53310d1fccffd0f92fee7ae510446f885743c5226f1b30",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-U1",
+      "pinNumber": "3",
+      "netId": "net-fef2ec95d68cff5c7384857cd7dd003d87b044f76da5754f73219dab4e3fd194",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-U1",
+      "pinNumber": "4",
+      "netId": "net-a0c9e1ae03ed3227e1a028a18503dc565371dfccda6de8582a98a2a4a1338b1f",
+      "kind": "netlist"
+    },
+    {
+      "componentId": "cmp-U1",
+      "pinNumber": "5",
+      "netId": "net-436512e5babfbe83cb49b2bec450620750c3f161cceb6d26d9b9cc806a4f19c1",
+      "kind": "netlist"
+    }
+  ]
+}

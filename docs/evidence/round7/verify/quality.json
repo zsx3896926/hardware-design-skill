@@ -1,0 +1,201 @@
+{
+  "status": "review_required",
+  "summary": {
+    "components": 26,
+    "modules": 6,
+    "wires": 65,
+    "wire_length": 1940.0,
+    "different_net_crossings": 0,
+    "empty_cell_ratio": 0.656,
+    "side_balance": {
+      "left": 16,
+      "right": 10,
+      "top": 16,
+      "bottom": 10,
+      "left_area_ratio": 0.631,
+      "top_area_ratio": 0.456,
+      "centroid": [
+        469.7,
+        493.2
+      ]
+    },
+    "content_bbox": [
+      69.5,
+      217.5,
+      1040.5,
+      810.0
+    ],
+    "module_bboxes": {
+      "usb": [
+        154.5,
+        241.5,
+        455.5,
+        400.5
+      ],
+      "sensor": [
+        74.5,
+        671.5,
+        480.5,
+        754.5
+      ],
+      "vref": [
+        149.5,
+        505.5,
+        360.5,
+        653.5
+      ],
+      "comp": [
+        669.5,
+        679.5,
+        1040.5,
+        753.5
+      ],
+      "driver": [
+        549.5,
+        217.5,
+        980.5,
+        449.5
+      ],
+      "indicator": [
+        69.5,
+        770.5,
+        295.5,
+        797.5
+      ]
+    },
+    "module_findings": [
+      {
+        "module": "usb",
+        "max_member_distance": 227.7
+      },
+      {
+        "module": "sensor",
+        "max_member_distance": 356.4
+      },
+      {
+        "module": "vref",
+        "max_member_distance": 199.2
+      },
+      {
+        "module": "comp",
+        "max_member_distance": 204.0
+      },
+      {
+        "module": "driver",
+        "max_member_distance": 296.6
+      },
+      {
+        "module": "indicator",
+        "max_member_distance": 183.0
+      }
+    ]
+  },
+  "findings": [
+    {
+      "code": "page_imbalance",
+      "severity": "warn",
+      "message": "content is pressed to one vertical edge",
+      "top_margin": 15.0,
+      "bottom_margin": 217.5
+    },
+    {
+      "code": "sparse_page",
+      "severity": "warn",
+      "message": "more than half of the coarse sheet cells are empty",
+      "empty_ratio": 0.656
+    },
+    {
+      "code": "module_fragmented",
+      "severity": "warn",
+      "message": "a module member sits more than 200 raw from its core",
+      "module": "usb",
+      "max_distance": 227.7
+    },
+    {
+      "code": "module_fragmented",
+      "severity": "warn",
+      "message": "a module member sits more than 200 raw from its core",
+      "module": "sensor",
+      "max_distance": 356.4
+    },
+    {
+      "code": "module_fragmented",
+      "severity": "warn",
+      "message": "a module member sits more than 200 raw from its core",
+      "module": "comp",
+      "max_distance": 204.0
+    },
+    {
+      "code": "module_fragmented",
+      "severity": "warn",
+      "message": "a module member sits more than 200 raw from its core",
+      "module": "driver",
+      "max_distance": 296.6
+    },
+    {
+      "code": "reading_order_mismatch",
+      "severity": "info",
+      "message": "declared module order differs from the page Z-reading order",
+      "declared": [
+        "usb",
+        "sensor",
+        "vref",
+        "comp",
+        "driver",
+        "indicator"
+      ],
+      "observed": [
+        "indicator",
+        "vref",
+        "sensor",
+        "comp",
+        "usb",
+        "driver"
+      ]
+    },
+    {
+      "code": "label_only_nets",
+      "severity": "info",
+      "message": "nets connected only through ports/labels",
+      "nets": [
+        "CC1",
+        "CC2",
+        "GATE",
+        "LED_A",
+        "NODE",
+        "OUT",
+        "REF_BOT",
+        "REF_TOP",
+        "VBUS",
+        "VREF"
+      ]
+    },
+    {
+      "code": "repeated_power_markers",
+      "severity": "info",
+      "message": "a net uses more than two same-name power markers",
+      "nets": [
+        "+5V",
+        "GND"
+      ]
+    }
+  ],
+  "counts": {
+    "error": 0,
+    "warn": 6,
+    "info": 3
+  },
+  "coverage": {
+    "text_bboxes": true,
+    "wire_geometry": true,
+    "modules": true,
+    "page_and_title_block": true
+  },
+  "not_checked": [
+    "electrical connectivity and pin-net equivalence",
+    "symbol outline accuracy beyond the measured bbox",
+    "fonts and text width beyond the measured designator bbox",
+    "parameters/values text (not measured by designator-geometry)",
+    "PCB placement, routing and manufacturing rules"
+  ]
+}

@@ -1,0 +1,10 @@
+[
+ {
+  "designator": "D4",
+  "field": "y",
+  "delta": -1,
+  "from": 40,
+  "to": 39,
+  "reason": "measured anchor 224 and pins 210; planner anchor normalised to 225; restore the real anchor-pin relation so the applied pins land on the planned wires"
+ }
+]

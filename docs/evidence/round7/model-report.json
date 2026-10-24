@@ -1,0 +1,99 @@
+{
+ "status": "blocked",
+ "counts": {
+  "parts": 26,
+  "zones": 6,
+  "nets": 14,
+  "components_with_text_bbox": 26
+ },
+ "blockers": [
+  {
+   "code": "anchor_requires_review",
+   "designator": "D4",
+   "detail": "planner anchor normalised; verify apply translation"
+  }
+ ],
+ "warnings": [
+  {
+   "code": "anchor_off_grid",
+   "designator": "D4",
+   "measured_anchor": [
+    900.0,
+    224.0
+   ],
+   "normalised_anchor": [
+    900.0,
+    225.0
+   ],
+   "reason": "pin offsets from the stored anchor are not on the 5-raw grid",
+   "apply_blocker": true
+  },
+  {
+   "code": "net_policy_inferred",
+   "net": "D1_N4",
+   "policy": "direct",
+   "zones": [
+    "usb"
+   ]
+  },
+  {
+   "code": "net_policy_inferred",
+   "net": "D1_N1",
+   "policy": "direct",
+   "zones": [
+    "usb"
+   ]
+  },
+  {
+   "code": "net_policy_inferred",
+   "net": "D1_N3",
+   "policy": "direct",
+   "zones": [
+    "usb"
+   ]
+  }
+ ],
+ "page": {
+  "bbox": [
+   0.0,
+   0.0,
+   1170.0,
+   825.0
+  ],
+  "innerBBox": [
+   10.0,
+   10.0,
+   1160.0,
+   815.0
+  ],
+  "titleBlock": [
+   459.99999999999955,
+   10.0,
+   1160.0,
+   190.0
+  ],
+  "keepouts": [
+   {
+    "name": "titleBlock",
+    "bbox": {
+     "minX": 459.99999999999955,
+     "minY": 10,
+     "maxX": 1160,
+     "maxY": 190
+    },
+    "hard": true
+   }
+  ]
+ },
+ "provenance": {
+  "snapshot_sha256": "906a858ba982501bc688c4e2177c08713830bdc53f60cb20175f166d454ee20e",
+  "connectivity_sha256": "481cd50a2eb4599ad2e733758408766128e3c98467135d189e008343c0705842",
+  "designators_sha256": "6ccb494e3d3b8158cbbaf9fb2d5e7fa06dfc21c4367c73dbd81052c93e656165",
+  "sheet_sha256": "d980356645e350a83cadcb60921ad037f9397645090e29cf031f1c2328dabc4e",
+  "module_plan_sha256": "78a0f9ade9d7fd907a4f780a9832972ca2158afc99c3d99fc46e0eb3ee77950f"
+ },
+ "source_hashes": {
+  "snapshot": "906a858ba982501bc688c4e2177c08713830bdc53f60cb20175f166d454ee20e",
+  "connectivity": "481cd50a2eb4599ad2e733758408766128e3c98467135d189e008343c0705842"
+ }
+}

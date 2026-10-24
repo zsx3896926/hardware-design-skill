@@ -4,5 +4,8 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# easyeda-agent local artifacts when the CLI runs from the repo root
+.easyeda/
+
 # PlatformIO build artifacts
 firmware/**/.pio/

@@ -1,0 +1,371 @@
+{
+  "before": {
+    "status": "review_required",
+    "summary": {
+      "components": 26,
+      "modules": 6,
+      "wires": 65,
+      "wire_length": 2310.0,
+      "different_net_crossings": 0,
+      "empty_cell_ratio": 0.688,
+      "side_balance": {
+        "left": 4,
+        "right": 22,
+        "top": 14,
+        "bottom": 12,
+        "left_area_ratio": 0.328,
+        "top_area_ratio": 0.687,
+        "centroid": [
+          751.5,
+          480.2
+        ]
+      },
+      "content_bbox": [
+        89.5,
+        201.5,
+        1020.5,
+        745.0
+      ],
+      "module_bboxes": {
+        "usb": [
+          89.5,
+          395.5,
+          650.5,
+          677.5
+        ],
+        "sensor": [
+          744.5,
+          641.5,
+          870.5,
+          733.0
+        ],
+        "vref": [
+          709.5,
+          475.5,
+          950.5,
+          570.5
+        ],
+        "comp": [
+          789.5,
+          335.5,
+          1020.5,
+          724.5
+        ],
+        "driver": [
+          789.5,
+          201.5,
+          1010.5,
+          404.5
+        ],
+        "indicator": [
+          669.5,
+          241.5,
+          965.5,
+          428.5
+        ]
+      },
+      "module_findings": [
+        {
+          "module": "usb",
+          "max_member_distance": 364.9
+        },
+        {
+          "module": "sensor",
+          "max_member_distance": 78.3
+        },
+        {
+          "module": "vref",
+          "max_member_distance": 138.6
+        },
+        {
+          "module": "comp",
+          "max_member_distance": 285.8
+        },
+        {
+          "module": "driver",
+          "max_member_distance": 116.0
+        },
+        {
+          "module": "indicator",
+          "max_member_distance": 193.0
+        }
+      ]
+    },
+    "findings": [
+      {
+        "code": "mass_asymmetry",
+        "severity": "warn",
+        "message": "at least four fifths of the parts sit on one side of the sheet",
+        "axis": "x",
+        "left": 4,
+        "right": 22
+      },
+      {
+        "code": "centroid_offset",
+        "severity": "warn",
+        "message": "area-weighted component centroid is far from the sheet centre",
+        "offset": [
+          166.5,
+          67.7
+        ]
+      },
+      {
+        "code": "sparse_page",
+        "severity": "warn",
+        "message": "more than half of the coarse sheet cells are empty",
+        "empty_ratio": 0.688
+      },
+      {
+        "code": "module_fragmented",
+        "severity": "warn",
+        "message": "a module member sits more than 200 raw from its core",
+        "module": "usb",
+        "max_distance": 364.9
+      },
+      {
+        "code": "module_fragmented",
+        "severity": "warn",
+        "message": "a module member sits more than 200 raw from its core",
+        "module": "comp",
+        "max_distance": 285.8
+      },
+      {
+        "code": "module_near_title_block",
+        "severity": "warn",
+        "message": "module envelope is within 20 raw of the title block",
+        "module": "driver",
+        "distance": 11.5
+      },
+      {
+        "code": "module_overlap",
+        "severity": "error",
+        "message": "module envelopes overlap",
+        "modules": [
+          "sensor",
+          "comp"
+        ]
+      },
+      {
+        "code": "module_overlap",
+        "severity": "error",
+        "message": "module envelopes overlap",
+        "modules": [
+          "vref",
+          "comp"
+        ]
+      },
+      {
+        "code": "module_overlap",
+        "severity": "error",
+        "message": "module envelopes overlap",
+        "modules": [
+          "comp",
+          "driver"
+        ]
+      },
+      {
+        "code": "module_overlap",
+        "severity": "error",
+        "message": "module envelopes overlap",
+        "modules": [
+          "comp",
+          "indicator"
+        ]
+      },
+      {
+        "code": "module_overlap",
+        "severity": "error",
+        "message": "module envelopes overlap",
+        "modules": [
+          "driver",
+          "indicator"
+        ]
+      },
+      {
+        "code": "reading_order_mismatch",
+        "severity": "info",
+        "message": "declared module order differs from the page Z-reading order",
+        "declared": [
+          "usb",
+          "sensor",
+          "vref",
+          "comp",
+          "driver",
+          "indicator"
+        ],
+        "observed": [
+          "sensor",
+          "usb",
+          "indicator",
+          "vref",
+          "driver",
+          "comp"
+        ]
+      },
+      {
+        "code": "repeated_power_markers",
+        "severity": "info",
+        "message": "a net uses more than two same-name power markers",
+        "nets": [
+          "+5V",
+          "GND"
+        ]
+      }
+    ],
+    "counts": {
+      "error": 5,
+      "warn": 6,
+      "info": 2
+    },
+    "coverage": {
+      "text_bboxes": true,
+      "wire_geometry": true,
+      "modules": true,
+      "page_and_title_block": true
+    },
+    "not_checked": [
+      "electrical connectivity and pin-net equivalence",
+      "symbol outline accuracy beyond the measured bbox",
+      "fonts and text width beyond the measured designator bbox",
+      "parameters/values text (not measured by designator-geometry)",
+      "PCB placement, routing and manufacturing rules"
+    ]
+  },
+  "after": {
+    "status": "review_required",
+    "summary": {
+      "components": 26,
+      "modules": 6,
+      "wires": 116,
+      "wire_length": 1805.0,
+      "different_net_crossings": 5,
+      "empty_cell_ratio": 0.771,
+      "side_balance": {
+        "left": 14,
+        "right": 12,
+        "top": 13,
+        "bottom": 13,
+        "left_area_ratio": 0.749,
+        "top_area_ratio": 0.485,
+        "centroid": [
+          401.2,
+          493.0
+        ]
+      },
+      "content_bbox": [
+        112.5,
+        279.5,
+        890.5,
+        695.0
+      ],
+      "module_bboxes": {
+        "usb": [
+          112.5,
+          590.5,
+          285.5,
+          675.5
+        ],
+        "sensor": [
+          464.5,
+          641.5,
+          550.5,
+          683.0
+        ],
+        "vref": [
+          804.5,
+          590.5,
+          890.5,
+          659.5
+        ],
+        "comp": [
+          129.5,
+          364.5,
+          320.5,
+          429.5
+        ],
+        "driver": [
+          554.5,
+          279.5,
+          710.5,
+          345.5
+        ],
+        "indicator": [
+          784.5,
+          346.5,
+          875.5,
+          413.5
+        ]
+      },
+      "module_findings": []
+    },
+    "findings": [
+      {
+        "code": "wire_crossings",
+        "severity": "info",
+        "message": "different-net wire segments cross",
+        "count": 5
+      },
+      {
+        "code": "centroid_offset",
+        "severity": "warn",
+        "message": "area-weighted component centroid is far from the sheet centre",
+        "offset": [
+          -183.8,
+          80.5
+        ]
+      },
+      {
+        "code": "sparse_page",
+        "severity": "warn",
+        "message": "more than half of the coarse sheet cells are empty",
+        "empty_ratio": 0.771
+      },
+      {
+        "code": "repeated_power_markers",
+        "severity": "info",
+        "message": "a net uses more than two same-name power markers",
+        "nets": [
+          "+5V",
+          "GND"
+        ]
+      }
+    ],
+    "counts": {
+      "error": 0,
+      "warn": 2,
+      "info": 2
+    },
+    "coverage": {
+      "text_bboxes": true,
+      "wire_geometry": true,
+      "modules": true,
+      "page_and_title_block": true
+    },
+    "not_checked": [
+      "electrical connectivity and pin-net equivalence",
+      "symbol outline accuracy beyond the measured bbox",
+      "fonts and text width beyond the measured designator bbox",
+      "parameters/values text (not measured by designator-geometry)",
+      "PCB placement, routing and manufacturing rules"
+    ]
+  },
+  "comparison": {
+    "deltas": {
+      "empty_cell_ratio": 0.083,
+      "wire_length": -505.0,
+      "different_net_crossings": 5,
+      "components": 0
+    },
+    "resolved": [
+      "mass_asymmetry",
+      "module_fragmented",
+      "module_near_title_block",
+      "module_overlap",
+      "reading_order_mismatch"
+    ],
+    "introduced": [
+      "wire_crossings"
+    ],
+    "remaining_errors": []
+  }
+}

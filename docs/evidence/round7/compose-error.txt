@@ -1,0 +1,3 @@
+easyeda sch compose ... --replace --preserve-instances
+exit 1
+stderr: zone driver geometry: D4: planned component outside sheet or off-grid

@@ -1,3 +1,49 @@
+# 第七轮交接（2026-10-24，原理图排版引擎）
+
+**本轮状态真源：`docs/round7-report.md`；证据索引：`docs/evidence/round7/README.md`。**
+分支 `feat/sch-layout-engine-round7`；worktree `C:\Users\jlc\work\hds-round7`；
+基线 `origin/main` `fe950d3`；提交 `6fcd723`；PR
+https://github.com/zsx3896926/hardware-design-skill/pull/11。
+
+## 当前结论
+
+- 离线链路完成：真实测量 → 6 区功能模板 → `layout-plan` → 单页合页 →
+  `layout-render` → 独立质量检查。候选图 0 error（改前 5 error），前后对比在同目录。
+- 真实写入只完成稳定 ID 绑定：隔离副本 26/26 件写入
+  `EasyEDA Agent Component ID`，保存并回读；未移动、未重连。
+- 本流水线整页 apply `BLOCKED`：D4/KT-0805R 锚点 224、引脚 210，偏移 -14 raw 不在
+  5-grid；planner 归一锚点 225 后，写入会让真实引脚差 1 raw；修正锚点又被 compose
+  判 `off-grid`。官方 `autolayout --engine official --rewire` 回退也在重连阶段超时，
+  留下无效事务，已 `doc reload` 并弃用。
+- **并行会话 `jlc-ea` 已在 scratch 上完成真实重排**。本会话把其最终备份导入
+  `temp-alarm-r7-verify`（`a5689d21…`）独立复核：26/26 器件身份一致、65/65 引脚
+  网络分区完全一致、`sch gate` pass、PCB DRC 0。官方 `layout-score` 60.7（无 zone
+  claims）/ 66.7（加 zone 后），其 reversed-label fix 与引脚外法线冲突
+  （R10.1/C1.1/R14.1 outward=180°，fix 却要求 right），**不执行**；clusters 24 条
+  逐对 vs 5 条分组，均无 ERROR。详见 `docs/round7-peer-verification.md`。
+- 用户工程 `test` 未被修改。隔离副本：`temp-alarm-r7-scratch`（并行会话）、
+  `temp-alarm-r7-layout`（官方回退失败，弃用）、`temp-alarm-r7-final`
+  （干净基线 + 绑定，未重排）、`temp-alarm-r7-verify`（并行最终备份的只读复核）。
+
+## 下一条具体操作
+
+1. 为 D4 换一个引脚在 5-grid 的等价 LED 符号（保持封装、脚号、网络、位号），
+   或用 rigid driver zone 保留现有几何并单独写入；然后重跑
+   `sch_layout_pipeline.py` → `sch compose` → `sch apply --dry-run`。
+2. apply 后必须：`sch save` → `doc reload` → `sch connectivity` 全量 diff →
+   `sch gate` → 前后官方 SVG/PNG → 质量对比。
+3. 任何写入前先 `easyeda audit tail` 确认无并发写者，并保证一个工程副本只有一个
+   写入者。
+
+## 运行中/未决
+
+- 最终隔离副本 `234724cc1b864c3da8bab18cbfbf4fc1` 停在基线 + 绑定状态。
+- 旧 `temp-alarm-r7-layout` 已重载，但器件被官方 autolayout 移动、pin net 为空；
+  不要用于验收。
+- 另一会话 `jlc-ea` 在其 scratch 上继续 M1/M5；窗口空闲后已通知。
+
+---
+
 # 集成交接（2026-10-23，第五轮收尾）
 
 **第五轮状态真源：`docs/task-ledger-round5.md`（本文件只保留指针与最新一段）。**

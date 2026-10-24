@@ -1,0 +1,18 @@
+{
+ "status": "geometry-inconsistent",
+ "checked": 26,
+ "problems": [
+  {
+   "designator": "D4",
+   "reason": "anchor translation differs from pin translation",
+   "anchor_delta": [
+    -810,
+    -184
+   ],
+   "pin_delta": [
+    -810,
+    -185
+   ]
+  }
+ ]
+}

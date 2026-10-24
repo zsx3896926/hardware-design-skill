@@ -120,6 +120,7 @@ Agent先读取已知客户端/操作系统和可用工具，再发现已配置�
 | 模拟采集、音视频、射频或高速链路 | [模拟与高速](references/analog-rf-highspeed.md) |
 | 绘制/整理/换料/建库 | [原理图工程习惯](references/schematic.md) |
 | 新建原理图、增功能块、图面混乱或排版整理 | [原理图排版与看图验收](references/schematic-layout.md)，绘图前规划、写入后实际导图复核 |
+| 已有原理图重排、自动布局、提高整页可读性 | [原理图排版引擎](references/schematic-layout-engine.md)：真实几何 → 功能模块 → `layout-plan` → 合页 → 受保护写入 → 网表/导图复核；先读该文件的并发与工具限制 |
 | 用8类典型任务校准排版检查、准备前后对比 | [原理图排版基准集](references/schematic-benchmarks.md)，运行 `python scripts/schematic_benchmark.py`；基准是离线示意，不是真机验收 |
 | 真实读写嘉立创EDA工程、恢复超时/重复执行、保存重开 | [EDA执行](references/eda-execution.md)；可用 `python scripts/eda_exec.py doctor/read/apply/save/export/drc/reopen-check`，先读后写；`apply` 支持受控删除，`netlist_diff.py` 做纯排版网表门禁 |
 | 不知道客户端、安装目录或首次接通 | [客户端兼容与首次接通](references/client-compatibility.md)；先跑 `python scripts/doctor_env.py --summary`，按当前客户端逐条判定 |
